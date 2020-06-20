@@ -47,7 +47,8 @@ function App() {
 }
 
 function NoMatch() {
-  return <h2>No match</h2>;
+  const location = useLocation();
+  return <h2>No match for {location.pathname}</h2>;
 }
 
 export default App;
