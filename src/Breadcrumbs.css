@@ -1,0 +1,12 @@
+ul.breadcrumbs {
+  list-style: none;
+  display: flex;
+  justify-items: flex-start;
+}
+ul.breadcrumbs li {
+  flex: 0 0 auto;
+  margin: 0 16px;
+}
+ul.breadcrumbs li:last-child {
+  background-color: beige;
+}

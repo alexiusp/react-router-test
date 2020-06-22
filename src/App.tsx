@@ -6,6 +6,7 @@ import './App.css';
 import PageA from './pages/PageA';
 import PageB from './pages/PageB';
 import PageHome from './pages/PageHome';
+import Breadcrumbs from './Breadcrumbs';
 
 function App() {
   const location = useLocation();
@@ -26,6 +27,8 @@ function App() {
             </ul>
           </nav>
         </header>
+        <hr />
+        <Breadcrumbs />
         <hr />
         <p>Current location: {location.pathname}</p>
         <Switch>
