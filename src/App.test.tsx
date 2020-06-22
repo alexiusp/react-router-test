@@ -5,6 +5,6 @@ import { StaticRouter } from 'react-router';
 
 test('renders learn react link', () => {
   const { getByText } = render(<StaticRouter><App /></StaticRouter>);
-  const linkElement = getByText(/Home/i);
-  expect(linkElement).toBeInTheDocument();
+  const titleElement = getByText(/Home page/i);
+  expect(titleElement).toBeInTheDocument();
 });
